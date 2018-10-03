@@ -1,0 +1,32 @@
+{
+    "parser": "babel-eslint",
+    "extends": ["standard", "plugin:react/recommended"],
+    "globals": {
+        "__DEV__": true
+    },
+    "env": {
+        "browser": true,
+        "jest": true
+    },
+    "rules": {
+        "arrow-parens": 0,
+        "semi": [2, "always"],
+        "no-multiple-empty-lines": 0,
+        "space-before-function-paren": 0,
+        "generator-star-spacing": 0,
+        "no-unsafe-finally": 0,
+        "no-useless-computed-key": 0,
+        "prefer-template": 2,
+        "react/jsx-uses-react": "error",
+        "react/jsx-uses-vars": "error",
+        "react/prop-types": 0,
+        "react/forbid-prop-types": 0,
+        "react/no-deprecated": 0,
+        "indent": 0,
+        "no-tabs": 0
+    },
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module"
+    }
+}
